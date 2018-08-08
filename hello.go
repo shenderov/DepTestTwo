@@ -1,4 +1,4 @@
-package deptwo // import "github.com/shenderov/DepTestTwo"
+package deptesttwo // import "github.com/shenderov/DepTestTwo"
 
 import (
 	"fmt"
@@ -7,5 +7,5 @@ import (
 
 func Hello() {
 	fmt.Println("This is dep three")
-	depone.Hello()
+	deptestone.Hello()
 }
